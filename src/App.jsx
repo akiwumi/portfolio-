@@ -58,7 +58,7 @@ function App() {
               <div className="hero-photo-circle">
                 {/* replace with your image */}
                 <img
-                  src="images/headshot.png"
+                  src="/images/headshot.png"
                   alt="Portrait"
                 />
               </div>
@@ -419,7 +419,7 @@ function App() {
               <div className="bio-circle">
                 {/* replace with your image */}
                 <img
-                  src="images/headshot.png"
+                  src="/images/headshot.png"
                   alt="Portrait"
                 />
               </div>
