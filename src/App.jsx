@@ -120,23 +120,21 @@ function App() {
           <div className="projects-grid">
             {/* Project 1 */}
             <article className="project-card">
-              <div className="project-media">
+              <div className="project-media project-media-no-bg">
                 <div
                   className="project-img"
                   style={{
-                    backgroundImage:
-                      "url('https://via.placeholder.com/800x600.png?text=Project+1')",
+                    backgroundImage: "url('/images/project-logo.png')",
+                    backgroundColor: "transparent",
                   }}
                   aria-hidden="true"
                 />
               </div>
               <div className="project-body">
                 <div className="project-meta">
-                  <h3>Marketing site for a SaaS analytics product</h3>
+                  <h3>Walantu Home Services</h3>
                   <p className="project-description">
-                    Designed and built a responsive, animation‑heavy landing
-                    experience that increased trial sign‑ups by 24% through clearer
-                    storytelling and performance improvements.
+                    Designed and built a website for Walantu, a home service company based in Accra, Ghana that hires out handymen and women.
                   </p>
                   <div className="tag-row">
                     <span className="tag">React</span>

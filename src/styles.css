@@ -308,6 +308,14 @@ p {
   mix-blend-mode: multiply;
 }
 
+.project-media-no-bg {
+  background: transparent;
+}
+
+.project-media-no-bg::after {
+  display: none;
+}
+
 .project-img {
   width: 100%;
   height: 0;
