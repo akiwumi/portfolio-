@@ -132,7 +132,16 @@ function App() {
               </div>
               <div className="project-body">
                 <div className="project-meta">
-                  <h3>Walantu Home Services</h3>
+                  <h3>
+                    <a
+                      href="https://walantu-app.netlify.app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ color: "inherit", textDecoration: "none" }}
+                    >
+                      Walantu Home Services
+                    </a>
+                  </h3>
                   <p className="project-description">
                     Designed and built a website for Walantu, a home service company based in Accra, Ghana that hires out handymen and women.
                   </p>
@@ -143,7 +152,12 @@ function App() {
                   </div>
                 </div>
                 <div className="btn-row">
-                  <a href="#" className="btn btn-primary">
+                  <a
+                    href="https://walantu-app.netlify.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-primary"
+                  >
                     Live demo
                   </a>
                   <a href="#" className="btn btn-secondary">
