@@ -240,41 +240,6 @@ function App() {
               </div>
             </article>
 
-            {/* Project 4 */}
-            <article className="project-card">
-              <div className="project-media">
-                <div
-                  className="project-img"
-                  style={{
-                    backgroundImage:
-                      "url('https://via.placeholder.com/800x600.png?text=Project+4')",
-                  }}
-                  aria-hidden="true"
-                />
-              </div>
-              <div className="project-body">
-                <div className="project-meta">
-                  <h3>Content‑driven editorial experience</h3>
-                  <p className="project-description">
-                    A flexible, CMS‑powered layout system for long‑form content with
-                    strong typography and media treatments.
-                  </p>
-                  <div className="tag-row">
-                    <span className="tag">Headless CMS</span>
-                    <span className="tag">Accessibility</span>
-                    <span className="tag">Performance</span>
-                  </div>
-                </div>
-                <div className="btn-row">
-                  <a href="#" className="btn btn-primary">
-                    Live demo
-                  </a>
-                  <a href="#" className="btn btn-secondary">
-                    View code
-                  </a>
-                </div>
-              </div>
-            </article>
           </div>
         </section>
 
